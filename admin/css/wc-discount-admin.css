@@ -1,0 +1,245 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.dataTables_wrapper .dataTables_length select {
+    padding: 0px 10px !important;
+}
+.a-user, 
+.a-cats {
+    color: #1a5a01 !important;
+}
+.wc-discount {
+    width: 98%;
+    display: block;
+    margin: 20px 0;
+}
+
+.wc-discount .import {
+    background-color: #60A9AA;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.wc-discount .export {
+    background-color: #383d41;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.wc-discount-heading {
+    font-size: 20px !important;
+    margin-bottom: 7px !important;
+}
+form.import_csv {
+    margin-top: 9px !important;
+    margin-bottom: 9px !important;
+}
+form.discount-rules-form {
+    margin-bottom: 35px !important;
+}
+.wc-discount form {
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 16px 0;
+    margin-bottom: 5px;
+}
+
+.wc-discount form input[type=number] {
+    width: 120px;
+    padding: 5px 10px;
+}
+
+.custom-datatable td {
+    text-align: center;
+}
+
+.wc-discount form .form-field {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+div#DataTables_Table_0_filter {
+    margin-bottom: 5px !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.wc-discount form input[type=submit] {
+    background-color: #60A9AA;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0 !important;
+}
+.bulk-delete {
+    background-color: #bb0819 !important;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.wc_discount_deleting {
+    background-color: #bb0819;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 40px !important;
+    padding-top: 5px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 5px !important;
+}
+.discount-rules-form .discount-select2 {
+    width: 300px !important;
+}
+
+.export_csv div,
+.import_csv div {
+    display: inline;
+}
+
+.export_csv div:nth-child(1) input,
+.import_csv div:nth-child(1) input {
+    width: 22% !important;
+    margin-right: 20px !important;
+}
+.export_csv div:nth-child(2) a {
+    padding: 11px 35px;
+}
+.import_csv div:nth-child(2) input {
+    width: 13% !important;
+}
+
+@media (max-width: 1200px) {
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 28% !important;
+        margin-right: 20px !important;
+    }
+    .export_csv div:nth-child(2) a {
+        padding: 11px 31px;
+    }
+}
+@media (max-width: 1150px) {
+    .export_csv div:nth-child(2) a {
+        padding: 11px 28px;
+    }
+}
+@media (max-width: 1100px) {
+    .import_csv div:nth-child(2) input {
+        width: 14% !important;
+    }
+}
+@media (max-width: 1024px) {
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 35% !important;
+        margin-right: 20px !important;
+    }
+    .import_csv div:nth-child(2) input {
+        width: 15% !important;
+    }
+}
+@media (max-width: 870px) {
+    .import_csv div:nth-child(2) input {
+        width: 16% !important;
+    }
+}
+@media (max-width: 768px) {
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 45% !important;
+        margin-right: 20px !important;
+    }
+    .import_csv div:nth-child(2) input {
+        width: 17% !important;
+    }
+}
+@media (max-width: 750px) {
+    .select2-container--default .select2-selection--single {
+        margin-bottom: 7px;
+    }
+}
+@media (max-width: 700px) {
+    .import_csv div:nth-child(2) input {
+        width: 18% !important;
+    }
+}
+@media (max-width: 660px) {
+    .import_csv div:nth-child(2) input {
+        width: 20% !important;
+    }
+}
+@media (max-width: 600px) {
+    .import_csv div:nth-child(2) input {
+        width: 22% !important;
+    }
+}
+@media (max-width: 550px) {
+    .import_csv div:nth-child(2) input {
+        width: 24% !important;
+    }
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 50% !important;
+        margin-right: 20px !important;
+    }
+}
+@media (max-width: 500px) {
+    .import_csv div:nth-child(2) input {
+        width: 26% !important;
+    }
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 55% !important;
+        margin-right: 10px !important;
+    }
+}
+@media (max-width: 460px) {
+    .import_csv div:nth-child(2) input {
+        width: 28% !important;
+    }
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 60% !important;
+        margin-right: 10px !important;
+    }
+}
+@media (max-width: 400px) {
+    .import_csv div:nth-child(2) input {
+        width: 90% !important;
+    }
+    .export_csv div:nth-child(1) input, .import_csv div:nth-child(1) input {
+        width: 90% !important;
+        margin-bottom: 15px !important;
+    }
+    .export_csv {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .wc-discount-heading{
+        font-size: 17px !important;
+        margin-bottom: 7px !important;
+    }
+    .export_csv div:nth-child(2) a {
+        padding: 11px 100px !important;
+    }
+}

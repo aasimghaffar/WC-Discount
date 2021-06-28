@@ -1,0 +1,10 @@
+.wc_discount_layout {
+    margin: 0;
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+.woocommerce-variation-add-to-cart {
+    display: block !important;
+}
